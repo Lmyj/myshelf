@@ -7,6 +7,7 @@ body, html {
 	height: 100% !important;
 }
 .er{
+	width:70px;height:70px;
 	background:url(../img/er.png) no-repeat center;
 	background-size: cover;
 }
@@ -224,9 +225,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 /* Services Section */
 #services {
 	padding: 80px 0;
-	background: url(../img/services-bg.jpg);
+	/*background: url(../img/services-bg.jpg);
 	background-size: cover;
-	background-attachment: fixed;
+	background-attachment: fixed;*/
 }
 #services H4 {
 	color: #E87E04;
@@ -758,6 +759,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 /* Media Queries */
 @media(min-width:768px) {
+.er{
+	width:90px;height:90px;
+}
+#services {
+	background: url(../img/services-bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
 .intro {
 	height: 100%;
 	padding: 0;
@@ -825,6 +834,14 @@ header .intro-text {
 }
 
 @media(min-width:992px) {
+.er{
+	width:110px;height:110px;
+}
+#services {
+	background: url(../img/services-bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
 #here-me h1 {
 	margin: 10px 0 0px;
 }
@@ -850,6 +867,14 @@ header .intro-text {
 }
 
 @media(min-width:1200px) {
+.er{
+	width:130px;height:130px;
+}
+#services {
+	background: url(../img/services-bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
 .timeline>li {
 	min-height: 170px;
 }
